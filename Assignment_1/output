@@ -1,0 +1,18 @@
+Rows= 4
+,Cols = 3
+,CUDA_DEVICE= 0
+, THREADS =256 
+Size of the data = 12
+Size of the vector = 3
+Read Data
+time to read data = 0.000970
+time for cudamalloc for data =0.324979
+time for cudamalloc for vector =0.000024
+time for cudamalloc for result =0.000017
+time to copy  data to GPU=0.000071
+time to copy vector data to GPU=0.000014
+time for kernel=0.000096
+Output of dot product is 
+
+10.000000 6.000000 16.000000 12.000000 
+Total time = 0.290000
